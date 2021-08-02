@@ -129,15 +129,15 @@ Independent mode allows you to more specifically update versions for each packag
 If you encounter any issues while using Lerna please check out our [Troubleshooting](doc/troubleshooting.md)
 document where you might find the answer to your problem.
 
-## Frequently asked questions
+## 常见问题
 
-See [FAQ.md](FAQ.md).
+请查阅 [FAQ.md](FAQ.md).
 
-## Concepts
+## 概念
 
-Lerna will log to a `lerna-debug.log` file (same as `npm-debug.log`) when it encounters an error running a command.
+当 Lerna 在运行命令遇到错误时，它将记录到 `lerna-debug.log` 文件 （与 `npm-debug.log` 相同）。
 
-Lerna also has support for [scoped packages](https://docs.npmjs.com/misc/scope).
+Lerna 也支持 [scoped packages](https://docs.npmjs.com/misc/scope).
 
 Run `lerna --help` to see all available commands and options.
 
@@ -162,8 +162,8 @@ Run `lerna --help` to see all available commands and options.
 }
 ```
 
-- `version`: the current version of the repository.
-- `npmClient`: an option to specify a specific client to run commands with (this can also be specified on a per command basis). Change to `"yarn"` to run all commands with yarn. Defaults to "npm".
+- `version`: 仓库的当前版本。
+- `npmClient`: 指定运行命令的特定客户端的选项（也可以基于每个命令指定）。改为 `"yarn"` 可运行所有的 yarn 命令。默认值为 "npm"。
 - `command.publish.ignoreChanges`: an array of globs that won't be included in `lerna changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
 - `command.publish.message`: a custom commit message when performing version updates for publication. See [@lerna/version](commands/version#--message-msg) for more details.
 - `command.publish.registry`: use it to set a custom registry url to publish to instead of
