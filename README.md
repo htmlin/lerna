@@ -139,7 +139,7 @@ document where you might find the answer to your problem.
 
 Lerna 也支持 [scoped packages](https://docs.npmjs.com/misc/scope).
 
-Run `lerna --help` to see all available commands and options.
+运行 `lerna --help` 查看所有可用的命令和选项。
 
 ### lerna.json
 
@@ -164,8 +164,8 @@ Run `lerna --help` to see all available commands and options.
 
 - `version`: 仓库的当前版本。
 - `npmClient`: 指定运行命令的特定客户端的选项（也可以基于每个命令指定）。改为 `"yarn"` 可运行所有的 yarn 命令。默认值为 "npm"。
-- `command.publish.ignoreChanges`: an array of globs that won't be included in `lerna changed/publish`. Use this to prevent publishing a new version unnecessarily for changes, such as fixing a `README.md` typo.
-- `command.publish.message`: a custom commit message when performing version updates for publication. See [@lerna/version](commands/version#--message-msg) for more details.
+- `command.publish.ignoreChanges`: 一个不会包含在 `lerna changed/publish` 中的 globs 数组。使用此选项可防止因为某些更改而发布不必要的新版本，例如修复 `README.md` 拼写错误。
+- `command.publish.message`: 执行发布版本更新时的自定义提交消息。请查阅 [@lerna/version](commands/version#--message-msg) 了解更多详情。
 - `command.publish.registry`: use it to set a custom registry url to publish to instead of
   npmjs.org, you must already be authenticated if required.
 - `command.bootstrap.ignore`: an array of globs that won't be bootstrapped when running the `lerna bootstrap` command.
