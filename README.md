@@ -31,7 +31,7 @@
   - [`lerna link`](./commands/link#readme)
   - [`lerna create`](./commands/create#readme)
   - [`lerna info`](./commands/info#readme)
-- [Concepts](#concepts)
+- [概念](#概念)
 - [Lerna.json](#lernajson)
 - [Global Flags](./core/global-options)
 - [Filter Flags](./core/filter-options)
